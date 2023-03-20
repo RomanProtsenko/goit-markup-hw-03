@@ -1,0 +1,279 @@
+:root {
+  --color-body: #434455;
+  --brand-color: #ffffff;
+  --hover-order: #404bbf;
+  --button-normal: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--brand-color);
+  color: var(--color-body);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.item {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* header */
+
+.header {
+  box-sizing: border-box;
+  background: var(--brand-color);
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.adres-list-tel,
+.adres-list-mail {
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* footer */
+
+.footer {
+  background: #2e2f42;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/* buttom-logo-href */
+
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+.logo-two {
+  color: #2e2f42;
+}
+
+.logo-two-footer {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.adres-list-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.adres-list-item:hover,
+.adres-list-item:focus {
+  color: #404bbf;
+}
+
+.header-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-list-item:hover,
+.header-list-item:focus {
+  text-decoration-line: underline;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+  background-color: #404bbf;
+}
+
+.button-order {
+  font-family: "Roboto", sans-serif;
+  background: var(--button-normal);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--brand-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.button-order:hover {
+  background-color: var(--hover-order);
+}
+
+.button-order:focus {
+  background-color: var(--hover-order);
+}
+
+.two-section-one-item-button {
+  font-family: "Roboto", sans-serif;
+  background: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.two-section-one-item-button:hover {
+  color: var(--brand-color);
+  background-color: var(--hover-order);
+}
+
+.two-section-one-item-button:focus {
+  background-color: var(--hover-order);
+  color: var(--brand-color);
+}
+
+.adres-list-mail,
+.adres-list-tel {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.adres-list-mail:hover,
+.adres-list-mail:focus {
+  color: #404bbf;
+}
+
+/* main page one */
+
+.section-one {
+  background: #2e2f42;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.section-two-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-two-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.section-three-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.section-four-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.section-four {
+  background: #f4f4fd;
+}
+
+.section-four-item {
+  background-color: var(--brand-color);
+}
+
+.section-four-photo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.profession {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* main page two */
+
+.servise {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.two-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
