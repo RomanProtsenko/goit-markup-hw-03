@@ -52,7 +52,7 @@ img {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -317,14 +317,45 @@ img {
 .hed {
   display: flex;
   align-items: center;
+  height: 72px;
 }
+
 .header-list {
   display: flex;
+  margin-right: auto;
+  gap: 40px;
+}
+
+.logo {
+  margin-right: 76px;
 }
 
 /* Boxing footer */
 
 /* Boxing page 1 */
+
+.section-one {
+  display: flex;
+  height: 600px;
+  align-items: center;
+}
+
+.title-one-page {
+  margin-top: 188px;
+  margin-right: 316px;
+  margin-bottom: 48px;
+  margin-left: 316px;
+  max-width: 496px;
+}
+
+.button-order {
+  margin-top: 48px;
+  margin-right: 635px;
+  margin-bottom: 188px;
+  margin-left: 636px;
+  display: block;
+  margin: 0 auto;
+}
 
 .img-list-one {
   display: flex;
@@ -332,10 +363,16 @@ img {
   gap: 24px;
 }
 
+.sec-two {
+  display: flex;
+  align-items: center;
+}
+
 /* Boxing page 2*/
 
 .button-two {
   display: flex;
+  justify-content: center;
 }
 
 .img-list-two {
