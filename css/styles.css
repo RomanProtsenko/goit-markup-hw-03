@@ -409,15 +409,22 @@ img {
 
 .sec-four-over {
   text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .section-four-photo {
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
-.profession {
-  margin-bottom: 32px;
+/* Page two type */
+
+.type-all,
+.type-website,
+.type-app,
+.type-design,
+.type-marketing {
+  padding: 12px 24px 12px 24px;
 }
 
 /* Boxing page 2*/
@@ -431,11 +438,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  grid-row-gap: 48px;
 }
 
 .two-section-one-list {
   padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   gap: 24px;
 }
 
