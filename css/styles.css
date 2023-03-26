@@ -155,11 +155,6 @@ img {
 
 .header-list-item:hover,
 .header-list-item:focus {
-  text-decoration-line: underline;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #404bbf;
 }
 
@@ -322,16 +317,19 @@ img {
 .header-list {
   display: flex;
   margin-right: auto;
-  gap: 40px;
 }
 
 .logo {
   margin-right: 76px;
 }
-
+.studio,
+.portfolio,
+.mail {
+  margin-right: 40px;
+}
 /* Boxing footer */
 
-.foot {
+.footer {
   padding-top: 101.5px;
   padding-bottom: 100px;
 }
@@ -384,6 +382,10 @@ img {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+
+.section-two-title {
+  margin-bottom: 8px;
 }
 
 .section-two-item {
@@ -441,8 +443,11 @@ img {
   grid-row-gap: 48px;
 }
 
-.two-section-one-list {
+.but-two-sec {
   padding-top: 96px;
+}
+
+.two-section-one-list {
   margin-bottom: 72px;
   gap: 24px;
 }
